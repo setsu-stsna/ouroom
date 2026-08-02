@@ -9,6 +9,7 @@ In the following document I describe how to update the rfaq **/rfaq gen9samplete
   * Changing the Pokemon sprites
   * Changing the name of the team and its author
   * Adding a description / RMT link (Optional)
+* Last thing if you know html
 
 <hr>
 
@@ -166,5 +167,11 @@ This part lets you change the name of the team and its author, pretty easy. Be c
 ```
 
 Some teams have this line for a description, or an RMT link. If you want to include it you can simply update the link and add it after the author.
+
+<hr>
+
+## Last thing if you know html
+
+If you 100% need to add a team, note that when you implement this rfaq in PS!, there are some extra characters where the linebreaks usually would be. You can take the time to delete them, that should give you a fair bit of room to add one more team but nothing more.
 
 
