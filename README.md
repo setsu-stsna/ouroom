@@ -1,14 +1,20 @@
 # Gen 9 Sample Teams 
 
-In the following document I describe how to update the rfaq **/rfaq gen9sampleteams**. First we present the full code and then a detailed explanation on how to update the faq in the future.
+In the following document I describe how to update the rfaq **/rfaq gen9sampleteams**. First I present a few important notes about the faq, then full code and then a detailed explanation on how to update the faq in the future.
 
-## The code
+<hr>
+
+## A few notes
+
+The faq is structured in a way such that there can be at most 6 Offense teams, 6 BO teams, 6 Balance teams, and 3 stalls. Adding anything more than 21 teams is very likely not possible due to PS! having a character limit of 10000 in each htmlfaq; this limit was actually updated after **skymin / torino** recommended it [here](https://www.smogon.com/forums/threads/3761841/). If you wanted to add 4 or more stall teams, or less than 4 Offenses, the faq would have to change. This can be easily done if you know a little bit of html, but realistically and hopefully, this won't happen and so you won't be needing it.
+
+If you just run the command **/rfaq gen9samples** and you are a room moderator or room owner, you will see a button saying **source**. If you click on this button you will see a similar code but all in one big paragraph. Do not worry much about it, it is basically the same thing but harder to read. Whenever you want to update the faq, please instead refer to the code I am showing below to do so.
+
+<hr>
+
+## The Code
 
 Before anything else you want to copy this entire thing into a notepad or any other text application. You will be editing it in order to update the faq. Once it is finished you can add it by typing **/addfaq gen9sampleteams,** followed by the code below. Please beware that the comma is important, since it separates the name of the faq and its actual content.
-
-The faq is structure in a way such that there can be at most 6 Offense teams, 6 BO teams, 6 Balance teams, and 3 stalls. Adding anything more than 21 teams is very likely not possible due to PS! having a character limit of 10000 in each htmlfaq; this limit was actually updated not long ago after skymin recommended it [here](https://www.smogon.com/forums/threads/3761841/). If you wanted to add 4 or more stall teams, or less than 4 Offenses, the faq would have to change. This can be easily done if you know a little bit of html, but realistically and hopefully, this won't happen and so you won't be needing it.
-
-As a side note, if you just run the command **/rfaq gen9samples** and if you are a room moderator or room owner, you will see a button saying **source**. If you click on this button you will see a similar code but all in one big paragraph. Do not worry much about it, it is basically the same thing but harder to read. Whenever you want to update the faq, please instead refer to the code I am showing below to do so.
 
 
 ```html
@@ -100,6 +106,8 @@ As a side note, if you just run the command **/rfaq gen9samples** and if you are
 </center>
 ```
 
+<hr>
+
 ## Updating a team
 
 Let us take the following two lines of code. Do not worry, you may not see all the content here but it will show up in a notepad if you copy it all.
@@ -133,7 +141,7 @@ This part has the Pokemon on the paste, just add the new names if you need to ch
 </div>Life Orb Ceruledge Screens</a> by <b>hellom</b>
 ```
 
-This part lets you change the name of the team and its author, pretty easy. Be careful to **not** remove the **div** part character nor the **/a** one.
+This part lets you change the name of the team and its author, pretty easy. Be careful to **not** remove the **/div** part nor the **/a** one.
 
 ### Description / RMT (Optional)
 
