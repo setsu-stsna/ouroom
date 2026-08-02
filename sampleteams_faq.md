@@ -8,7 +8,7 @@ In the following document I describe how to update the rfaq **/rfaq gen9samplete
   * Updating the paste
   * Changing the Pokemon sprites
   * Changing the name of the team and its author
-  * Description / RMT (Optional)
+  * Adding a description / RMT link (Optional)
 
 <hr>
 
@@ -159,7 +159,7 @@ This part lets you change the name of the team and its author, pretty easy. Be c
 
 <hr>
 
-### Description / RMT (Optional)
+### Adding a description / RMT link (Optional)
 
 ```html
 - <a href="//pokepast.es/5c623ee360e9883e">Description</a>
