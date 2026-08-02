@@ -4,7 +4,7 @@ Here I describe how to update **/rfaq hazards**
 
 <hr>
 
-# The code
+## The code
 
 What you first want to do is copy this entire thing into a notepad or any other text application. You can update the text from there and once you are done, you can use **/addhtmlfaq hazards,** followed by the new code. Please keep in mind that the comma is important, as it separates the name of the faq from the content.
 
