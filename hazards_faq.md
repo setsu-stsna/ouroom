@@ -2,6 +2,10 @@
 
 Here I describe how to update **/rfaq hazards**
 
+Contents:
+* The code
+* Updating the faq
+
 <hr>
 
 ## The code
