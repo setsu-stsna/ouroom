@@ -125,7 +125,7 @@ The first important thing is that if you wanted to have less teams by for exampl
 <a href="//pokepast.es/f3c47120f38435fc">
 ```
 
-The part above lets you update the pokepaste link. That's it! I highly recommend using this format, the one without the www, as it decreases the cahracter limit while still working. I would keep the // for reasons, do not worry about them.
+The part above lets you update the pokepaste link. That's it! I highly recommend using this format, the one without the **www** and the **http:** as it decreases the characters while still working. I would keep the // for reasons, do not worry about them.
 
 ### Changing the Pokemon sprites
 
