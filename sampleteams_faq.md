@@ -1,6 +1,14 @@
-# Gen 9 Sample Teams 
+# Gen 9 Sample Teams rfaq
 
-In the following document I describe how to update the rfaq **/rfaq gen9sampleteams**. First I present a few important notes about the faq, then full code and then a detailed explanation on how to update the faq in the future.
+In the following document I describe how to update the rfaq **/rfaq gen9sampleteams**. Here is a table of contents
+
+* A few notes
+* The code
+* Updating a slot
+  * Updating the paste
+  * Changing the Pokemon sprites
+  * Changing the name of the team and its author
+  * Description / RMT (Optional)
 
 <hr>
 
@@ -108,7 +116,7 @@ Before anything else you want to copy this entire thing into a notepad or any ot
 
 <hr>
 
-## Updating a team
+## Updating a slot
 
 Let us take the following two lines of code. Do not worry, you may not see all the content here but it will show up in a notepad if you copy it all.
 
@@ -119,6 +127,8 @@ Let us take the following two lines of code. Do not worry, you may not see all t
 
 The first important thing is that if you wanted to have less teams by for example removing this slot all together, that is the team *Life Orb Ceruledge Screens by hellom*, you would only need to delete those 2 lines. That is it. Let us know break down the rfaq.
 
+<hr>
+
 ### Updating the paste
 
 ```html
@@ -126,6 +136,8 @@ The first important thing is that if you wanted to have less teams by for exampl
 ```
 
 The part above lets you update the pokepaste link. That's it! I highly recommend using this format, the one without the **www** and the **http:** as it decreases the characters while still working. I would keep the // for reasons, do not worry about them.
+
+<hr>
 
 ### Changing the Pokemon sprites
 
@@ -135,6 +147,8 @@ The part above lets you update the pokepaste link. That's it! I highly recommend
 
 This part has the Pokemon on the paste, just add the new names if you need to change the paste. Please be aware that names with two words or with a dash **must** be written in one word. So none of Landorus-Therian or Iron Valiant, you have to write landorustherian and ironvaliant.
 
+<hr>
+
 ### Changing the name of the team and its author
 
 ```html
@@ -142,6 +156,8 @@ This part has the Pokemon on the paste, just add the new names if you need to ch
 ```
 
 This part lets you change the name of the team and its author, pretty easy. Be careful to **not** remove the **/div** part nor the **/a** one.
+
+<hr>
 
 ### Description / RMT (Optional)
 
