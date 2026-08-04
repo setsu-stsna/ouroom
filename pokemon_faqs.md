@@ -19,19 +19,13 @@ First copy the following code in a notepad or any other similar application. You
 ```html
 <center>
 <img src="//play.pokemonshowdown.com/sprites/ani/greattusk.gif" width="104" height="68">
-<table style="text-align:center;margin:auto">
-<tbody>
+<table style="text-align:center;margin:auto;border-spacing:25px 0px;">
 <tr>
-<td style="padding-right: 25px">
-</td>
-<td style="padding-right: 25px">
-<b>Items:</b> <br><psicon item=heavydutyboots> <psicon item=rockyhelmet> <psicon item=boosterenergy> <psicon item=leftovers> <br><br><b>Checks:</b><br><psicon pokemon=walkingwake><psicon pokemon=ironvaliant><psicon pokemon=sinistcha><psicon pokemon=skarmory><psicon pokemon=kyurem><psicon pokemon=ogerponwellspring><br><psicon pokemon=corviknight><psicon pokemon=moltres><psicon pokemon=zapdos><psicon pokemon=enamorus><psicon pokemon=dondozo><psicon pokemon=latios>
-</td>
 <td>
-<b>Tera types:<br> <span style="color: #B7B7CE">Steel</span>, <span style="color: #1dece5"> Ice</span>, <span style="color: #735797">Ghost</span>, <span style="color: #E2BF65">Ground</span>, <span style="color: #EE8130">Fire</span>,<br><span style="color: #6390F0">Water</span>, <span style="color: #A33EA1">Poison</span>, <span style="color: #C22E28">Fighting</span></b><br><br><b>Moves:</b><br>Rapid Spin, Headlong Rush, Ice Spinner,<br>Stealth Rock, Knock Off, Bulk Up,<br>Close Combat, Earthquake, Head Smash,<br>Temper Flare, Taunt, Stone Edge, Supercell Slam
-</td>
-</tr>
-</tbody>
+<td>
+<b>Items:</b><br><psicon item=heavydutyboots> <psicon item=rockyhelmet> <psicon item=boosterenergy> <psicon item=leftovers><br><br><b>Checks:</b><br><psicon pokemon=walkingwake><psicon pokemon=ironvaliant><psicon pokemon=sinistcha><psicon pokemon=skarmory><psicon pokemon=kyurem><psicon pokemon=ogerponwellspring><br><psicon pokemon=corviknight><psicon pokemon=moltres><psicon pokemon=zapdos><psicon pokemon=enamorus><psicon pokemon=dondozo><psicon pokemon=latios>
+<td>
+<b>Tera types:<br><span style="color: #B7B7CE">Steel</span>, <span style="color: #1dece5"> Ice</span>, <span style="color: #735797">Ghost</span>, <span style="color: #E2BF65">Ground</span>, <span style="color: #EE8130">Fire</span>,<br><span style="color: #6390F0">Water</span>, <span style="color: #A33EA1">Poison</span>, <span style="color: #C22E28">Fighting</span></b><br><br><b>Moves:</b><br>Rapid Spin, Headlong Rush, Ice Spinner,<br>Stealth Rock, Knock Off, Bulk Up,<br>Close Combat, Earthquake, Head Smash,<br>Temper Flare, Taunt, Stone Edge, Supercell Slam
 </table>
 </center>
 ```
